@@ -35,7 +35,7 @@ test("form shows success message on submit with form details", async () => {
   fireEvent.change(lastNameID, { target: { value: lastName } });
   fireEvent.change(addressID, { target: { value: address } });
   fireEvent.change(cityID, { target: { value: city } });
-  fireEvent.change(stateID, { target: { value: state } });
+  fireEvegnt.change(stateID, { target: { value: state } });
   fireEvent.change(zipID, { target: { value: zip } });
   fireEvent.click(getByTestId("checkout"));
 
